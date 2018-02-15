@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.text.*?>
+<?import com.jfoenix.controls.*?>
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<Pane prefHeight="400.0" prefWidth="600.0" style="-fx-background-color: #135A5B;" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="librarymanegmentsystem.SearchController">
+   <children>
+      <JFXButton fx:id="btn_Borrow" layoutX="415.0" layoutY="21.0" prefHeight="37.0" prefWidth="74.0" style="-fx-background-color: #27C9BE;" text="Borrow" />
+      <JFXButton fx:id="Back" layoutX="501.0" layoutY="21.0" prefHeight="37.0" prefWidth="74.0" style="-fx-background-color: #27C9BE;" text="Back" />
+      <JFXTextField fx:id="Search" focusColor="#78c3a2" labelFloat="true" layoutX="26.0" layoutY="22.0" prefHeight="25.0" prefWidth="353.0" promptText="Search" style="-fx-text-fill: #78c3a2;">
+         <font>
+            <Font size="18.0" />
+         </font></JFXTextField>
+      <TableView fx:id="Book_Table" layoutX="26.0" layoutY="75.0" prefHeight="306.0" prefWidth="549.0" />
+   </children>
+</Pane>

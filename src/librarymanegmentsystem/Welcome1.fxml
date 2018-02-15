@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.image.*?>
+<?import javafx.scene.text.*?>
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<StackPane fx:id="Stack" prefHeight="476.0" prefWidth="468.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="librarymanegmentsystem.WelcomeController">
+   <children>
+      <Pane prefHeight="476.0" prefWidth="468.0" />
+      <ImageView fitHeight="487.0" fitWidth="479.0">
+         <image>
+            <Image url="@Untitled-1.jpg" />
+         </image>
+      </ImageView>
+   </children>
+</StackPane>

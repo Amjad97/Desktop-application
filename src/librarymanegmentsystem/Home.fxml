@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.paint.*?>
+<?import javafx.scene.text.*?>
+<?import javafx.geometry.*?>
+<?import javafx.scene.image.*?>
+<?import com.jfoenix.controls.*?>
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<Pane fx:id="Pane" prefHeight="476.0" prefWidth="468.0" style="-fx-background-color: #135A5B;" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="librarymanegmentsystem.Home1Controller">
+   <children>
+      <JFXButton fx:id="sign_up" layoutX="272.0" layoutY="372.0" prefHeight="46.0" prefWidth="89.0" rotate="-0.0" style="-fx-background-color: #27C9BE;" text="Sign Up" textFill="#070707" />
+      <JFXPasswordField fx:id="Text_Password" focusColor="#78c3a2" labelFloat="true" layoutX="174.0" layoutY="285.0" prefHeight="30.0" prefWidth="174.0" promptText="Password" style="-fx-text-fill: #78c3a2;">
+         <font>
+            <Font size="18.0" />
+         </font></JFXPasswordField>
+      <JFXTextField fx:id="Text_username" focusColor="#78c3a2" labelFloat="true" layoutX="174.0" layoutY="202.0" prefHeight="30.0" prefWidth="174.0" promptText="User name" style="-fx-text-fill: #78c3a2;">
+         <font>
+            <Font size="18.0" />
+         </font></JFXTextField>
+      <JFXButton fx:id="btn_login" layoutX="109.0" layoutY="372.0" prefHeight="46.0" prefWidth="83.0" rotate="-0.0" style="-fx-background-color: #27C9BE;" text="Log in" />
+      <ImageView fitHeight="126.0" fitWidth="130.0" layoutX="74.0" layoutY="31.0">
+         <image>
+            <Image url="@book-icon.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="46.0" fitWidth="46.0" layoutX="120.0" layoutY="274.0">
+         <image>
+            <Image url="@User-Interface-Password-icon.png" />
+         </image>
+      </ImageView>
+      <Label layoutX="219.0" layoutY="28.0" prefHeight="52.0" prefWidth="201.0" text="Library " textFill="#1ae4c3">
+         <font>
+            <Font name="System Bold" size="45.0" />
+         </font>
+      </Label>
+      <Label layoutX="219.0" layoutY="91.0" prefHeight="52.0" prefWidth="201.0" text="System" textFill="#1ae4c3">
+         <font>
+            <Font name="System Bold" size="45.0" />
+         </font>
+      </Label>
+      <JFXCheckBox fx:id="Show" layoutX="355.0" layoutY="294.0" text="Show" textFill="#e5fff3" />
+      <JFXTextField fx:id="textField" focusColor="#78c3a2" labelFloat="true" layoutX="174.0" layoutY="285.0" prefHeight="35.0" prefWidth="174.0" style="-fx-text-fill: #78c3a2;">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </JFXTextField>
+      <ImageView fitHeight="46.0" fitWidth="46.0" layoutX="120.0" layoutY="197.0">
+         <image>
+            <Image url="@user-icon.png" />
+         </image>
+      </ImageView>
+   </children>
+</Pane>

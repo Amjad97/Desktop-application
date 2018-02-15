@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.image.*?>
+<?import com.jfoenix.controls.*?>
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane id="AnchorPane" fx:id="Pane" prefHeight="447.0" prefWidth="272.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="librarymanegmentsystem.AdminOptionsController">
+   <children>
+      <VBox layoutY="161.0" prefHeight="296.0" prefWidth="272.0">
+         <children>
+            <JFXButton fx:id="btn_managebooks" layoutX="189.0" layoutY="75.0" prefHeight="103.0" prefWidth="272.0" style="-fx-background-color: #27C9BE;" text="Manage Books" />
+            <JFXButton fx:id="btn_manageAuthors" layoutX="180.0" layoutY="173.0" prefHeight="122.0" prefWidth="272.0" style="-fx-background-color: #27C9BE;" text="Manage Authors" />
+            <JFXButton fx:id="btn_managemembers" layoutX="386.0" layoutY="243.0" prefHeight="119.0" prefWidth="272.0" style="-fx-background-color: #27C9BE;" text="Manage Members" />
+            <JFXButton fx:id="Log_out" layoutX="494.0" layoutY="39.0" prefHeight="119.0" prefWidth="272.0" style="-fx-background-color: #27C9BE;" text="Log out" />
+         </children>
+      </VBox>
+      <Pane layoutX="-1.0" layoutY="-2.0" prefHeight="134.0" prefWidth="272.0">
+         <children>
+            <ImageView fitHeight="153.0" fitWidth="162.0" layoutX="55.0" layoutY="8.0">
+               <image>
+                  <Image url="@man-icon.png" />
+               </image>
+            </ImageView>
+         </children>
+      </Pane>
+   </children>
+</AnchorPane>

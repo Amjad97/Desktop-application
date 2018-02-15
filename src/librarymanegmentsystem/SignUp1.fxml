@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.text.*?>
+<?import com.jfoenix.controls.*?>
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<Pane prefHeight="397.0" prefWidth="497.0" style="-fx-background-color: #135A5B;" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="librarymanegmentsystem.SignUpController">
+   <children>
+      <JFXTextField fx:id="Email" focusColor="#78c3a2" labelFloat="true" layoutX="176.0" layoutY="112.0" prefHeight="25.0" prefWidth="158.0" promptText="Email" style="-fx-text-fill: #78c3a2;">
+         <font>
+            <Font size="18.0" />
+         </font></JFXTextField>
+      <JFXButton fx:id="Create_Account" layoutX="127.0" layoutY="329.0" prefHeight="40.0" prefWidth="99.0" style="-fx-background-color: #27C9BE;" text="Create account" />
+      <JFXButton fx:id="Back" layoutX="275.0" layoutY="329.0" prefHeight="40.0" prefWidth="99.0" style="-fx-background-color: #27C9BE;" text="Back to log in" />
+      <JFXTextField fx:id="user_name" focusColor="#78c3a2" labelFloat="true" layoutX="176.0" layoutY="183.0" prefHeight="25.0" prefWidth="158.0" promptText="User name" style="-fx-text-fill: #78c3a2;">
+         <font>
+            <Font size="18.0" />
+         </font></JFXTextField>
+      <JFXTextField fx:id="Full_name" focusColor="#78c3a2" labelFloat="true" layoutX="176.0" layoutY="41.0" prefHeight="25.0" prefWidth="158.0" promptText="Full name" style="-fx-text-fill: #78c3a2;">
+         <font>
+            <Font size="18.0" />
+         </font></JFXTextField>
+      <JFXCheckBox fx:id="Show" layoutX="342.0" layoutY="252.0" text="Show" textFill="#e5fff3" />
+      <JFXPasswordField fx:id="Password" focusColor="#78c3a2" labelFloat="true" layoutX="176.0" layoutY="243.0" prefHeight="35.0" prefWidth="158.0" promptText="Password" style="-fx-text-fill: #78c3a2;">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </JFXPasswordField>
+      <JFXTextField fx:id="textField" focusColor="#78c3a2" labelFloat="true" layoutX="176.0" layoutY="243.0" prefHeight="35.0" prefWidth="158.0" style="-fx-text-fill: #78c3a2;">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </JFXTextField>
+   </children>
+</Pane>

@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.text.*?>
+<?import javafx.geometry.*?>
+<?import com.jfoenix.controls.*?>
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<Pane fx:id="Pane" prefHeight="488.0" prefWidth="600.0" style="-fx-background-color: #135A5B;" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="librarymanegmentsystem.AdminController">
+   <children>
+      <TableView fx:id="Table_Members" layoutX="24.0" layoutY="132.0" prefHeight="337.0" prefWidth="559.0" />
+      <Label alignment="CENTER" layoutX="137.0" layoutY="61.0" prefHeight="55.0" prefWidth="334.0" text="Borrowing Operations for Members" textFill="#2effea">
+         <font>
+            <Font size="20.0" />
+         </font>
+      </Label>
+      <JFXDrawer fx:id="Drawer" defaultDrawerSize="300.0" layoutY="42.0" prefHeight="446.0" prefWidth="171.0" />
+      <MenuBar layoutY="-1.0" prefHeight="42.0" prefWidth="611.0" style="-fx-background-color: #048075;">
+        <menus>
+          <Menu mnemonicParsing="false" text="Menu">
+               <graphic>
+                  <JFXHamburger fx:id="Hamburger" prefHeight="37.0" prefWidth="43.0" />
+               </graphic>
+          </Menu>
+        </menus>
+      </MenuBar>
+   </children>
+</Pane>
